@@ -11,7 +11,7 @@ function reducer(resArr,length,result) {
   } else {
     result.push(...resArr)
   }
-  console.log(result);
+  // console.log(result);
   return result
 }
 
@@ -19,5 +19,5 @@ function arrayToMatrix(arr,length) {
   let result = []
   return reducer(arr,length,result)
 }
-// console.log(arrayToMatrix(arr,4));
-arrayToMatrix(arr,5)
+console.log(arrayToMatrix(arr,4));
+// arrayToMatrix(arr,5)
