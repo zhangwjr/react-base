@@ -27,7 +27,7 @@ function reducer(state = [], action) {
       state = state.filter((item) => item.id !== action.id);
       return state;
     case "TODO_REMOVE_DONE":
-      state = state.filter((item) => (!item.done));
+      state = state.filter((item) => !item.done);
       return state;
   }
   return state

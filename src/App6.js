@@ -7,6 +7,7 @@ import { useSelector } from "react-redux";
 
 export default function App6() {
   const data = useSelector((state) => state);
+  // console.log('App_useSelector',useSelector);
   return (
     <div id="todoApp">
       <Title />
