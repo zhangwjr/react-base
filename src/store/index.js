@@ -16,5 +16,5 @@ function counterReducer(
   }
 }
 let store = createStore(counterReducer)
-
+// console.log('store',store);
 export default store;
