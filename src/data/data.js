@@ -1,0 +1,44 @@
+const data = [
+  {
+    id:0,
+    title:"Web全栈架构师",
+    describe:"授课深度对标阿里P6级"
+  },
+  {
+    id:1,
+    title:"Web前端高级工程师",
+    describe:"授课深度对标阿里P6级"
+  },
+  {
+    id:2,
+    title:"Web金牌就业班",
+    describe:"授课深度对标阿里P6级"
+  },
+  {
+    id:3,
+    title:"JavaEE企业分布式高级架构师",
+    describe:"授课深度对标阿里P6级"
+  },
+  {
+    id:4,
+    title:"JavaEE企业级开发工程师",
+    describe:"授课深度对标阿里P6级"
+  },
+  {
+    id:5,
+    title:"百万架构师",
+    describe:"授课深度对标阿里P6级"
+  },
+  {
+    id:6,
+    title:"Java金牌就业班",
+    describe:"授课深度对标阿里P6级"
+  },
+  {
+    id:7,
+    title:"数据分析工程师",
+    describe:"授课深度对标阿里P6级"
+  },
+]
+
+export default data;
