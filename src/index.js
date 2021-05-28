@@ -1,11 +1,13 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
 // import "./index.css";
-// import App from "./App8";
-import './fiber/index'
+import App from './App2';
+// import './fiber/index'
 
 // import store from './store/todoStore'
-// import { Provider } from 'react-redux'
+import store from './store/index';
+import { Provider } from 'react-redux';
+// import { Provider } from './kReactRedux'
 // import { BrowserRouter } from 'react-router-dom'
 
 // ReactDOM.render(
@@ -14,12 +16,13 @@ import './fiber/index'
 //   </BrowserRouter>,
 //   document.getElementById('root')
 // );
-
-// ReactDOM.render(
-//   <Provider store={store}>
-//     <App />
-//   </Provider>,
-//   document.getElementById("root")
-// );
+// console.log('React',React); //zwj-log
+// console.log('ReactDOM',ReactDOM); //zwj-log
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('root')
+);
 
 // ReactDOM.render(<App />, document.getElementById("root"));

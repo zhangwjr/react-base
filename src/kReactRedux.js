@@ -14,6 +14,7 @@ const Context = React.createContext();
 
 // * step2 : 使用Provider传递value
 export function Provider({store, children}) {
+  debugger
   return <Context.Provider value={store}>{children}</Context.Provider>;
 }
 
